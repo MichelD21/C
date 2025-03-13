@@ -9,7 +9,7 @@ void print_card(int card, char state, char id[], char city[], int pop, float are
     printf("Population: %d\n",              pop     );
     printf("Area: %.2f km²\n",              area    );
     printf("GDP: R$ %.2f\n",                gdp     );
-    printf("Tourism Attractions: %d\n",   tour    );
+    printf("Tourism Attractions: %d\n",     tour    );
 }
 
 // get card info from user
