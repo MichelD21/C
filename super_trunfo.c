@@ -14,7 +14,7 @@ void print_card(int card, char state, char id[], char city[], int pop, float are
 
 // get card info from user
 void get_card(char *state, char *id, char *city, int *pop, float *area, float *gdp, int *tour){
-    printf("Enter card info: ");
+    printf("Enter card info, each field separated by a whitespace: ");
     scanf(" %c %s %s %d %f %f %d", state, id, city, pop, area, gdp, tour);
 }
 
