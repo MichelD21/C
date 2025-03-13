@@ -20,7 +20,7 @@ void get_card(char *state, char *id, char *city, int *pop, float *area, float *g
 
 int main(){
     
-    // variables (2 for 2 inputs)
+    // variables (2 positions for 2 inputs)
     char    state[2];
     char    id[2][4];       // size 3 + end of
     char    city[2][20];    // size 19 + end of
